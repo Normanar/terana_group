@@ -1,0 +1,31 @@
+.header_container {
+    height: 40px;
+    background-color: #202736;
+}
+
+.header_text_block {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    color: whitesmoke;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mail_company img {
+    width: 10px;
+    border-radius: 10px;
+}
+
+.mail_company::before {
+    content: "\2709";
+    margin-right: 5px;
+}
+
+.phone_company::before {
+    content: "\260F";
+    margin-right: 5px;
+
+}

@@ -1,0 +1,41 @@
+.navbar_container {
+    height: 80px;
+    background-color: #0171C5;
+}
+
+.navbar_text_block{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name_company{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    /*color: #202736;*/
+    color: white;
+}
+
+.navbar{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.name_company img {
+    width: 70px;
+    margin-right: 10px;
+}
