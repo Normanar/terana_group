@@ -8,11 +8,11 @@ import s from "./Slider.module.css"
 
 
 const img = [
-    <img key={slide1} src={slide1}/>,
-    <img key={slide2} src={slide2}/>,
-    <img key={slide3} src={slide3}/>,
-    <img key={slide4} src={slide4}/>,
-    <img key={slide5} src={slide5}/>,
+    <img key={slide1} src={slide1} alt={"building"}/>,
+    <img key={slide2} src={slide2} alt={"building"}/>,
+    <img key={slide3} src={slide3} alt={"building"}/>,
+    <img key={slide4} src={slide4} alt={"building"}/>,
+    <img key={slide5} src={slide5} alt={"building"}/>,
 ]
 
 export function Slider() {

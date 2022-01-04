@@ -39,3 +39,11 @@
     width: 70px;
     margin-right: 10px;
 }
+
+.navbar_main, .navbar_about, .navbar_services, .navbar_contacts {
+    cursor: pointer
+}
+
+.navbar_main:hover , .navbar_about:hover , .navbar_services:hover , .navbar_contacts:hover {
+    border-bottom: 3px solid white;
+}
