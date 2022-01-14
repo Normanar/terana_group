@@ -1,0 +1,10 @@
+.container {
+    background-color: #0171C5;
+}
+.text_block{
+    width: 1200px;
+    margin: 0 auto;
+    color: white;
+    text-indent: 20px;
+    font-size: 20px;
+}
