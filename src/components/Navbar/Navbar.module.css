@@ -41,9 +41,19 @@
 }
 
 .navbar_main, .navbar_about, .navbar_services, .navbar_contacts {
-    cursor: pointer
+    cursor: pointer;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
 }
 
 .navbar_main:hover , .navbar_about:hover , .navbar_services:hover , .navbar_contacts:hover {
-    border-bottom: 3px solid white;
+    /*border-bottom: 2px solid white;*/
+    background-color: white;
+    color: #0171C5;
 }
+
+
