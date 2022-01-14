@@ -1,6 +1,7 @@
 .header_container {
     height: 40px;
-    background-color: #202736;
+    /*background-color: #202736;*/
+    background-color: #343742;
 }
 
 .header_text_block {
