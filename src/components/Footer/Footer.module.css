@@ -1,0 +1,15 @@
+.footer_container {
+    height: 40px;
+    background-color: #343742;
+}
+
+.footer_text {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    color: whitesmoke;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,7 +1,6 @@
 .container {
     width: 1200px;
     margin: 0 auto;
-
 }
 
 .text_block{
@@ -33,12 +32,3 @@
     border-radius: 10px;
 }
 
-.counter {
-    background: #ff6b57 none repeat scroll 0 0;
-    border-radius: 4px;
-    box-shadow: 0 7px 17px 0 rgb(0 0 0 / 0.2), 0 6px 20px 0 rgb(0 0 0 / 0%);
-    color: #fff;
-    padding: 50px 30px;
-    text-align: center;
-    margin-bottom: 30px;
-}
