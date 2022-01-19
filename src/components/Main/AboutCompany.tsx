@@ -6,7 +6,7 @@ export function AboutCompany() {
     return (
         <div className={s.container}>
             <div className={s.name_company}>
-                О компании
+                Наша компания
             </div>
             <div className={s.description}>
                 <div className={s.text_block}>
