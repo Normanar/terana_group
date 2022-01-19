@@ -4,6 +4,8 @@ import {Header} from "./components/Header/Header";
 import {Navbar} from "./components/Navbar/Navbar";
 import {Main} from "./components/Main/Main";
 import {Footer} from "./components/Footer/Footer";
+import {Route, Routes} from "react-router-dom";
+import {Contacts} from "./components/Contacts/Contacts";
 
 function App() {
   return (
@@ -12,7 +14,12 @@ function App() {
         <Navbar/>
         {/*<Slider/>*/}
         {/*<MySlider/>*/}
-        <Main/>
+
+        <Routes>
+            <Route path={"/"} element={<Main/>} />
+            <Route path={"/contacts"} element={<Contacts/>} />
+        </Routes>
+
         <Footer/>
     </div>
   );

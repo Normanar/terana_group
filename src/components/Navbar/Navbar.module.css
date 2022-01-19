@@ -41,7 +41,7 @@
 }
 
 .navbar_main, .navbar_about, .navbar_services, .navbar_contacts {
-    cursor: pointer;
+    /*cursor: pointer;*/
     height: 100%;
     width: 25%;
     display: flex;
@@ -50,10 +50,22 @@
     border-radius: 2px;
 }
 
-.navbar_main:hover , .navbar_about:hover , .navbar_services:hover , .navbar_contacts:hover {
-    /*border-bottom: 2px solid white;*/
-    background-color: white;
-    color: #0171C5;
+.link {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*.navbar_main:hover , .navbar_about:hover , .navbar_services:hover , .navbar_contacts:hover {*/
+/*    !*border-bottom: 2px solid white;*!*/
+/*    background-color: white;*/
+/*    color: #0171C5;*/
+/*}*/
+
+.link_active {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px white solid;
 }
 
 
