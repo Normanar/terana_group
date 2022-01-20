@@ -3,7 +3,7 @@ import s from "./Contacts.module.css"
 
 export function Contacts () {
     return (
-        <div>
+        <div className={s.contacts_container}>
             Contacts
         </div>
     )

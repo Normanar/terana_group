@@ -12,8 +12,8 @@ export function Navbar () {
                 </div>
                 <nav className={s.navbar}>
                     <span className={s.navbar_main}><NavLink to={"/"} className={({ isActive }) => (isActive ? s.link_active : s.link)}>Главная</NavLink></span>
-                    <span className={s.navbar_about}>О компании</span>
-                    <span className={s.navbar_services}>Услуги</span>
+                    <span className={s.navbar_about}><NavLink to={"/about"} className={({ isActive }) => (isActive ? s.link_active : s.link)}>О компании</NavLink></span>
+                    <span className={s.navbar_services}><NavLink to={"/services"} className={({ isActive }) => (isActive ? s.link_active : s.link)}>Услуги</NavLink></span>
                     <span className={s.navbar_contacts}><NavLink to={"/contacts"} className={({ isActive }) => (isActive ? s.link_active : s.link)}>Контакты</NavLink></span>
                 </nav>
             </div>
