@@ -25,7 +25,7 @@ export function MyServices() {
                 <div>- сборка электрощитового оборудования</div>
             </div>
             <div className={s.block1}>
-                <img src={image1}/>
+                <img src={image1} alt={"service"}/>
                 <div className={s.block1_text}>
                     {/*<div style={ {fontWeight : "bold"} }>Проектирование воздушных и кабельных линий (ВЛ и КЛ)</div>*/}
                     <h3>Проектирование воздушных и кабельных линий (ВЛ и КЛ)</h3>
@@ -36,7 +36,7 @@ export function MyServices() {
                 </div>
             </div>
             <div className={s.block2}>
-                <img src={image2}/>
+                <img src={image2} alt={"service"}/>
                 <div className={s.block2_text}>
                     {/*<div style={ {fontWeight : "bold"} }>Проектирование воздушных и кабельных линий (ВЛ и КЛ)</div>*/}
                     <h3>Проектирование трансформаторных подстанций 10/0,4 кВ</h3>
@@ -49,7 +49,7 @@ export function MyServices() {
                 </div>
             </div>
             <div className={s.block1}>
-                <img src={image3}/>
+                <img src={image3} alt={"service"}/>
                 <div className={s.block1_text}>
                     {/*<div style={ {fontWeight : "bold"} }>Проектирование воздушных и кабельных линий (ВЛ и КЛ)</div>*/}
                     <h3>Проектирование наружного электроосвещения (ЭНО)</h3>
@@ -60,7 +60,7 @@ export function MyServices() {
                 </div>
             </div>
             <div className={s.block2}>
-                <img src={image4}/>
+                <img src={image4} alt={"service"}/>
                 <div className={s.block2_text}>
                     {/*<div style={ {fontWeight : "bold"} }>Проектирование воздушных и кабельных линий (ВЛ и КЛ)</div>*/}
                     <h3>Проектирование силового электрооборудования (ЭМ)В</h3>
@@ -72,7 +72,7 @@ export function MyServices() {
                 </div>
             </div>
             <div className={s.block1}>
-                <img src={image5}/>
+                <img src={image5} alt={"service"}/>
                 <div className={s.block1_text}>
                     {/*<div style={ {fontWeight : "bold"} }>Проектирование воздушных и кабельных линий (ВЛ и КЛ)</div>*/}
                     <h3>Проектирование электроосвещения (ЭО)</h3>
@@ -83,7 +83,7 @@ export function MyServices() {
                 </div>
             </div>
             <div className={s.block2}>
-                <img src={image6}/>
+                <img src={image6} alt={"service"}/>
                 <div className={s.block2_text}>
                     {/*<div style={ {fontWeight : "bold"} }>Проектирование воздушных и кабельных линий (ВЛ и КЛ)</div>*/}
                     <h3>Проектирование охранно-пожарной сигнализации (ОПС)</h3>
@@ -95,7 +95,7 @@ export function MyServices() {
                 </div>
             </div>
             <div className={s.block1}>
-                <img src={image7}/>
+                <img src={image7} alt={"service"}/>
                 <div className={s.block1_text}>
                     {/*<div style={ {fontWeight : "bold"} }>Проектирование воздушных и кабельных линий (ВЛ и КЛ)</div>*/}
                     <h3>Проектирование системы видеонаблюдения</h3>
@@ -109,7 +109,7 @@ export function MyServices() {
                 </div>
             </div>
             <div className={s.block2}>
-                <img src={image8}/>
+                <img src={image8} alt={"service"}/>
                 <div className={s.block2_text}>
                     {/*<div style={ {fontWeight : "bold"} }>Проектирование воздушных и кабельных линий (ВЛ и КЛ)</div>*/}
                     <h3>Проектирование автоматизации дымоудаления и пожаротушения</h3>
@@ -120,7 +120,7 @@ export function MyServices() {
                 </div>
             </div>
             <div className={s.block1}>
-                <img src={image9}/>
+                <img src={image9} alt={"service"}/>
                 <div className={s.block1_text}>
                     {/*<div style={ {fontWeight : "bold"} }>Проектирование воздушных и кабельных линий (ВЛ и КЛ)</div>*/}
                     <h3>Проектирование системы контроля и управление доступом (СКУД)</h3>
@@ -133,7 +133,7 @@ export function MyServices() {
                 </div>
             </div>
             <div className={s.block2}>
-                <img src={image10}/>
+                <img src={image10} alt={"service"}/>
                 <div className={s.block2_text}>
                     {/*<div style={ {fontWeight : "bold"} }>Проектирование воздушных и кабельных линий (ВЛ и КЛ)</div>*/}
                     <h3>Умный дом TELETASK</h3>
@@ -146,7 +146,7 @@ export function MyServices() {
                 </div>
             </div>
             <div className={s.block1}>
-                <img src={image11}/>
+                <img src={image11} alt={"service"}/>
                 <div className={s.block1_text}>
                     {/*<div style={ {fontWeight : "bold"} }>Проектирование воздушных и кабельных линий (ВЛ и КЛ)</div>*/}
                     <h3>Электромонтажные и слаботочные работы</h3>
@@ -157,7 +157,7 @@ export function MyServices() {
                 </div>
             </div>
             <div className={s.block2}>
-                <img src={image12}/>
+                <img src={image12} alt={"service"}/>
                 <div className={s.block2_text}>
                     {/*<div style={ {fontWeight : "bold"} }>Проектирование воздушных и кабельных линий (ВЛ и КЛ)</div>*/}
                     <h3>Сборка электрощитового оорудования</h3>
